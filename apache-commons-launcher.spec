@@ -3,7 +3,7 @@
 
 Name:          apache-%{short_name}
 Version:       1.1
-Release:       7.20100521svn936225
+Release:       8.20100521svn936225
 Summary:       A cross platform Java application launcher
 Group:         Development/Java
 License:       ASL 2.0

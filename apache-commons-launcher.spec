@@ -3,7 +3,7 @@
 
 Name:          apache-%{short_name}
 Version:       1.1
-Release:       8.20100521svn936225
+Release:       7.20100521svn936225
 Summary:       A cross platform Java application launcher
 Group:         Development/Java
 License:       ASL 2.0
@@ -35,7 +35,7 @@ BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:     noarch
 
 BuildRequires: java-devel >= 0:1.6.0
-BuildRequires: jpackage-utils >= 0:1.7.5
+BuildRequires: jpackage-utils
 BuildRequires: maven-antrun-plugin
 BuildRequires: maven-assembly-plugin
 BuildRequires: maven-compiler-plugin
@@ -49,9 +49,9 @@ BuildRequires: maven-plugin-bundle
 BuildRequires: maven-surefire-maven-plugin
 BuildRequires: maven-surefire-provider-junit
 Requires:      java >= 0:1.6.0
-Requires:      jpackage-utils >= 0:1.7.5
-Requires(post):jpackage-utils >= 0:1.7.5
-Requires(postun):jpackage-utils >= 0:1.7.5
+Requires:      jpackage-utils
+Requires(post):jpackage-utils
+Requires(postun):jpackage-utils
 
 Provides:      jakarta-%{short_name} = %{version}-%{release}
 Obsoletes:     jakarta-%{short_name} < %{version}-%{release}
@@ -84,7 +84,7 @@ batch and shell scripts.
 %package javadoc
 Summary:       API documentation for %{name}
 Group:         Development/Java
-Requires:      jpackage-utils >= 0:1.7.5
+Requires:      jpackage-utils
 Obsoletes:     jakarta-%{short_name}-javadoc < %{version}-%{release}
 
 %description javadoc

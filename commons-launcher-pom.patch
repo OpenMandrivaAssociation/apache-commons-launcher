@@ -1,0 +1,31 @@
+--- pom.xml.orig	2010-04-21 12:02:56.000000000 +0300
++++ pom.xml	2010-12-08 11:41:04.149160219 +0200
+@@ -27,7 +27,7 @@
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>commons-launcher</groupId>
+   <artifactId>commons-launcher</artifactId>
+-  <version>1.2-SNAPSHOT</version>
++  <version>1.1</version>
+   <name>Commons Launcher</name>
+   <inceptionYear>2002</inceptionYear>
+   <description>
+@@ -77,18 +77,12 @@
+ 
+   <dependencies>
+     <dependency>
+-      <groupId>ant</groupId>
++      <groupId>org.apache.ant</groupId>
+       <artifactId>ant</artifactId>
+       <version>1.5.3-1</version>
+       <scope>provided</scope>
+     </dependency>
+     <dependency>
+-      <groupId>ant</groupId>
+-      <artifactId>ant-optional</artifactId>
+-      <version>1.5.3-1</version>
+-      <scope>provided</scope>
+-    </dependency>
+-    <dependency>
+       <groupId>junit</groupId>
+       <artifactId>junit</artifactId>
+       <version>3.8.1</version>

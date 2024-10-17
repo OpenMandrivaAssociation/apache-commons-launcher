@@ -7,7 +7,7 @@ Release:       8.20100521svn936225
 Summary:       A cross platform Java application launcher
 Group:         Development/Java
 License:       ASL 2.0
-URL:           http://commons.apache.org/%{base_name}/
+URL:           https://commons.apache.org/%{base_name}/
 
 # The last release of this package was many years ago and in that time there
 # have only been two extremely minor changes to the source code, [1] and [2].
